@@ -1,0 +1,12 @@
+[user]
+        name = Wen-Lung Yinn
+        email = dragon.yinn@gmail.com
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+[alias]
+  st = status
+  rb = svn rebase
+  ci = commit -a
+  co = checkout
