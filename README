@@ -1,0 +1,18 @@
+
+以下是在某機器上使用此repo的方法：
+
+Installation:
+
+    # TODO: Confirm this URL when finishing pushing to Github 
+    git clone git@github.com:dragonyy/Linux_config.git ~/.vim
+
+Create symlinks:
+
+    ln -s ~/.vim/vimrc ~/.vimrc
+    ln -s ~/.vim/gitconfig ~/.gitconfig
+
+Switch to the `~/.vim` directory, and fetch submodules:
+
+    cd ~/.vim
+    git submodule init
+    git submodule update
