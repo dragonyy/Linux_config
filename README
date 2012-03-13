@@ -16,3 +16,13 @@ Switch to the `~/.vim` directory, and fetch submodules:
     cd ~/.vim
     git submodule init
     git submodule update
+
+為了安裝FuzzyFinder/L9兩個套件（都在BitBucket上），要執行以下工作：
+（在某目錄下，例如~/outside_vim_plugin）
+hg clone https://bitbucket.org/ns9tks/vim-fuzzyfinder
+hg clone https://bitbucket.org/ns9tks/vim-l9
+ln -s ~/outside_vim_plugin/vim-fuzzyfinder/ ~/.vim/bundle/fuzzyfinder
+ln -s ~/outside_vim_plugin/vim-l9/ ~/.vim/bundle/l9
+
+（如果要定期更新的話，這兩個目錄要自行更新）
+
